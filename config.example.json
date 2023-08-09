@@ -1,0 +1,27 @@
+{
+    "twitch": {
+        "client": {
+            "id": "CLIENT_ID",
+            "secret": "CLIENT_SECRET"
+        },
+        "access": {
+            "accessToken": "ACCESS_TOKEN",
+            "refreshToken": "REFRESH_TOKEN",
+            "expiryTimestamp": 0
+        },
+        "channels": [
+            "yobi9"
+        ]
+    },
+    "chat_voice": {
+        "provider": "google",
+        "twitch_mappings": {
+            "osx": {
+                "yobi9": "Daniel"
+            },
+            "google": {
+                "yobi9": "en-GB-Wavenet-B"
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "twitch_chat_google_tts",
+  "version": "1.0.0",
+  "description": "Simple program to get high quality google voices for twitch chats",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "5.0.0",
+    "@twurple/auth": "7.0.1",
+    "@twurple/chat": "7.0.1",
+    "lodash": "4.17.21",
+    "play-sound": "1.1.5",
+    "yargs": "17.7.2"
+  }
+}
